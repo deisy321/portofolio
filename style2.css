@@ -1,22 +1,22 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9; /* Um tom suave de cinza */
+    background-color: #f9f9f9; 
     margin: 0;
     padding: 0;
-    color: #333; /* Cor do texto principal */
+    color: #333; 
 }
 
 #projects {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff; /* Fundo branco */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 h2 {
-    color: #333; /* Cor do título */
+    color: #333; 
     text-align: center;
     margin-bottom: 30px;
 }
@@ -24,53 +24,53 @@ h2 {
 .project {
     margin-bottom: 40px;
     padding: 25px;
-    border-radius: 8px; /* Bordas arredondadas */
-    background-color: #faf0e6;/* Um tom suave de cinza */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; 
+    background-color: #faf0e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease;
 }
 
 .project:hover {
-    transform: translateY(-5px); /* Efeito de levantamento sutil */
+    transform: translateY(-5px); 
 }
 
 h3 {
-    color: #333; /* Cor do título */
+    color: #333; 
     margin-bottom: 15px;
 }
 
 p {
-    color: #666; /* Cor do texto secundário */
+    color: #666; 
     margin-bottom: 20px;
 }
 
 a {
     display: inline-block;
     padding: 10px 20px;
-    color: #fff; /* Cor do texto nos botões */
-    background-color: #007bff; /* Azul suave para os botões */
-    border-radius: 8px; /* Bordas arredondadas */
+    color: #fff; 
+    background-color: #007bff; 
+    border-radius: 8px; 
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
 a:hover {
-    background-color: #0056b3; /* Um tom mais escuro de azul ao passar o mouse */
+    background-color: #0056b3; 
 }
 
 p a {
-    color: #007bff; /* Cor do texto dos links */
+    color: #007bff; 
     text-decoration: none;
-    border-bottom: 1px dotted #007bff; /* Linha pontilhada para os links */
+    border-bottom: 1px dotted #007bff; 
     transition: border-bottom 0.3s ease;
 }
 
 p a:hover {
-    border-bottom: 1px solid #007bff; /* Linha sólida ao passar o mouse */
+    border-bottom: 1px solid #007bff;
 }
 
 footer {
     text-align: center;
     margin-top: 50px;
-    color: #666; /* Cor do texto do rodapé */
+    color: #666; 
 }
