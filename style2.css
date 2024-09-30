@@ -1,76 +1,69 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color:white; 
-    margin: 0;
-    padding: 0;
-    color: #333; 
+h2 {
+    color: #2c3e50; /* Cor azul escuro */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
+
+
+
 
 #projects {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #ffffff; 
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-
-h2 {
-    color: #333; 
-    text-align: center;
-    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Mínimo de 200px por coluna */
+    gap: 20px; /* Espaçamento entre os projetos */
+    justify-items: center; /* Centraliza os itens horizontalmente */
 }
 
 .project {
-    margin-bottom: 40px;
+    width: 200px;  /* Define a largura dos círculos */
+    height: 200px; /* Define a altura igual à largura */
     padding: 25px;
-    border-radius: 8px; 
-    background-color:rgb(0, 255, 213);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 50%; /* Torna o projeto circular */
+    background-color: rgb(0, 255, 213);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo dentro do círculo */
+    justify-content: center; /* Alinha verticalmente o conteúdo no centro */
+    text-align: center;
 }
 
 .project:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
 }
 
 h3 {
-    color: #333; 
-    margin-bottom: 15px;
+    font-size: 1.2em;
 }
 
 p {
+    font-size: 0.9em;
     color: #666; 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-a {
+.back-button {
     display: inline-block;
-    padding: 10px 20px;
-    color: #fff; 
-    background-color: #007bff; 
-    border-radius: 8px; 
+    padding: 12px 25px;
+    color: #fff;
+    background-color: #2898a7; /* Cor verde diferenciada */
+    border-radius: 8px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-a:hover {
-    background-color: #0056b3; 
-}
-
-p a {
-    color: #007bff; 
-    text-decoration: none;
-    border-bottom: 1px dotted #007bff; 
-    transition: border-bottom 0.3s ease;
-}
-
-p a:hover {
-    border-bottom: 1px solid #007bff;
-}
-
-footer {
-    text-align: center;
-    margin-top: 50px;
-    color: #666; 
+.back-button:hover {
+    background-color: #218883; /* Cor mais escura ao passar o mouse */
+    transform: translateY(-3px); /* Efeito de elevação no hover */
 }
